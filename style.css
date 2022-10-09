@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    letter-spacing: 0.4rem;
+    overflow-x: hidden;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+@media (min-width: 1025px) {
+    header {
+        background-color: #424245;
+        position: fixed;
+        top: 0;
+        height: 40px;
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2vw;
+        z-index: 9999;
+    }
+    header i {
+        transition: 0.5s all;
+        color: #F5F5F7;
+    }
+    header i:hover {
+        transition: 0.5s all;
+        filter: brightness(150%);
+        filter: drop-shadow(0px 0px 1px white);
+        transform: scale(1.1);
+    }
+    .content {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        margin-top: 40px;
+    }
+    .macbook:hover {
+        transition: 0.2s all;
+        transform: scale(1.05);
+    }
+    .macbook {
+        transition: 0.2s all;
+        width: 40vw;
+        min-width: 400px;
+        z-index: 0;
+    }
+    .text {
+        display: flex;
+        flex-flow: column;
+    }
+    .head h2 {
+        max-width: 400px;
+    }
+    .head p {
+        max-width: 400px;
+    }
+    .altText {
+        display: flex;
+        justify-content: center;
+    }
+    .altText p {
+        max-width: 90vw;
+        text-justify: auto;
+        font-weight: normal;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        background-color: #424245;
+        position: fixed;
+        top: 0;
+        height: 6vh;
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header i {
+        color: #F5F5F7;
+        font-size: 1.7rem;
+    }
+    .content {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7vh;
+    }
+    .macbook {
+        width: 85vw;
+        z-index: -1;
+    }
+    .text {
+        display: flex;
+        flex-flow: column;
+    }
+    .head h2 {
+        max-width: 90vw;
+    }
+    .head p {
+        max-width: 90vw;
+    }
+    .altText {
+        display: flex;
+        justify-content: center;
+    }
+    .altText p {
+        max-width: 90vw;
+        text-justify: auto;
+        font-weight: normal;
+        font-size: 1.2rem;
+    }
+}
