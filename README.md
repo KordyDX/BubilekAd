@@ -1,4 +1,4 @@
 # BubilekAd
-School homework
-Macbook ad/poster page
+School homework<br>
+Macbook ad/poster page<br>
 Live: https://kordy.xyz/Bubilek_Reklama/
