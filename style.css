@@ -46,7 +46,7 @@ body {
         justify-content: center;
         align-items: center;
         gap: 2vw;
-        margin-top: 40px;
+        margin-top: 70px;
     }
     .macbook:hover {
         transition: 0.2s all;
@@ -68,13 +68,17 @@ body {
     .head p {
         max-width: 400px;
     }
-    .altText {
+
+    .altTextParent {
+        margin-top: 2rem;
         display: flex;
         justify-content: center;
     }
+
+    .altText {
+        inline-size: 75ch;
+    }
     .altText p {
-        max-width: 90vw;
-        text-justify: auto;
         font-weight: normal;
     }
 }
